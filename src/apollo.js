@@ -1,7 +1,7 @@
 import ApolloClient from "apollo-boost";
 
 const client = new ApolloClient({
-    uri:"https://movieql2.vercel.app/"
+    uri:"http://localhost:4250/"
 })
 
 export default client
